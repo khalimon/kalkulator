@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+}
+
+#box {
+    font-size: 0;
+    position: relative;
+    width: 404px;
+    height: 406px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +15%);
+}
+
+#box .outer {
+    margin: 1.5px;
+    width: 133px;
+    height: 133px;
+    display: inline-block;
+    position: absolute;
+
+}
+
+#box .inner {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 100%;
+    border:0.5px solid black;
+   
+}
+
+#square1 {
+    background-color: red;
+}
+
+#square2 {
+    background-color: blue;
+    left: 134px;
+}
+
+#square3 {
+    background-color: green;
+    right: 0px;
+}
+
+#square4 {
+    background-color: yellow;
+    top: 135px;
+}
+
+#square5 {
+    background-color: black;
+    left: 134px;
+    top: 135px;
+}
+
+#square6 {
+    background-color: orange;
+    right: 0px;
+    top: 135px;
+}
+
+#square7 {
+    background-color: purple;
+    top: 270px;
+    left: 0px;
+}
+
+#square8 {
+    background-color: grey;
+    top: 270px;
+    left: 134px;
+}
+
+#square9 {
+    background-color: pink;
+    right: 0px;
+    top: 270px;
+}
+
+#circle1 {
+    background-color: pink;
+    top: 34px;
+    left: 33px;
+}
+#circle2 {
+    background-color: grey;
+    top: 34px;
+    left: 167px;
+}
+#circle3 {
+    background-color: purple;
+    top: 34px;
+   right:33px;
+}
+#circle4 {
+    background-color: green;
+    top: 169px;
+    left: 33px;
+}
+#circle5 {
+    background-color: red;
+    top: 169px;
+    left: 167px;
+}
+#circle6 {
+    background-color: blue;
+    top: 169px;
+    right:33px;
+}
+#circle7 {
+    background-color: orange;
+    top: 302px;
+    left:33px;
+}
+#circle8 {
+    background-color: yellow;
+    top: 302px;
+    left:167px;
+}
+#circle9 {
+    background-color: black;
+    top: 302px;
+    right:33px;
+}
+
+
