@@ -1,0 +1,15 @@
+h1 {
+    color: #2d307a;
+    margin-bottom: 0px;
+}
+h2 {
+    font-style: italic;
+    color: #bbaffa;
+    margin:2px;
+}
+section#info {
+   padding-left:50px;
+}
+section#books {
+   padding-left:50px;
+}

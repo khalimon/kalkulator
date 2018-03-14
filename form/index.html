@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>A Simple Form </h1>
+    <h2>Form Fundamentals</h2>
+    <form action="https://formspree.io/halimonm@gmail.com" method="POST" autocomplete="on">
+
+        <fieldset>
+            <legend>
+                <h3>Customer Info</h3>
+            </legend>
+            <section id="info">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your name" autofocus required> <br><br>
+                <label for="phone">Telephone:</label>
+                <input type="tel" placeholder="Pattern:1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br><br>
+                <label for="mail">E-mail:</label>
+                <input type="text" placeholder="Enter your e-mail address" multiple required>
+            </section><br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Books</h3>
+            </legend>
+            <section id="books">
+                <select id="text" name="book">
+	                <option selected ="selected">Haruki Murakami "1Q84"</option>
+	                <option>Ayn Rand "Atlas shrugged"</option>
+	                <option>Donna Tartt "The Goldfish"</option>
+	                <option>Harper Lee "To kill a Mockingbird</option>
+	                <option>Kurt Vonnegut "Cat's Cradle"</option>
+	            </select>
+                <label id="gender">Quantity (Maximum 5)</label>
+                <input type="number" name="quantity" min="1" max="5">
+                <input type="submit" value="Submit">
+            </section>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
